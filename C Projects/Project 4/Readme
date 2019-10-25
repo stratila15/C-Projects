@@ -1,0 +1,26 @@
+Tema 2 - Structuri de Date - seria CC
+
+Nume: Stratila Vladislav
+Grupa: 312CC
+
+	Task 1 (Creare arbore)
+		-Am creat o functie 'add_child' care adauga copii unui nod dat in lista de copii a acestui nod.
+		
+		-Am creat o funcite 'make_adress' care adauga adresele corespunzatoare 
+		fiecarui nod comform inputului.
+		
+		-Am creat o functie 'tree_construction' care citeste fiecare linie
+		 si fiecare element informatia din fisier si creaza arborele corespunzator.
+		Fiecarui nod mai intai i se adauga adresele.
+		Se verifica:
+		*Daca nodul are idul parintelui '-1' atunci el devinde root(radacina arborelui).
+		*Daca nodul are idul parintelui idul unui nod deja adaugat atunci se apeleaza 
+		functia de adaugare a acestui nod la lista de copii a nodului sau parinte.
+	
+		-Am creat o functie 'write_file_task1' care mai intai apeleaza functia de creare a 
+		arborelui apoi scrie pe fiecare rand idul nodului si idurile copiilor sai.
+		Aceasta functie se apeleaza in main si primeste ca input fisierul de intrare si 
+		fisierul de iesire.
+
+
+

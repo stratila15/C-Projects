@@ -1,0 +1,41 @@
+Tema 1 - Structuri de Date - seria CC
+
+Nume: Stratila Vladislav
+Grupa: 312CC
+
+La implementarea acestei teme am folosit liste simplu inlantuite.Pe langa functiile descrise mai jos au fost folosite functii de baza de prelucrare a listelor,cum ar fi:initializare lista,adaugare element la sfarsit,printare lista.
+
+Task 1 (Eliminare de exceptii folosind metode statistice)
+	Pentru implementarea acestui task am folosit 3 functii:
+		-Functia care calculeaza media a 5 elemente din lista.
+		-Functia care calculeaza deviatia a 5 elmente din lista.
+		-Doua functii de extragere a mediai(una pentru valoare si alta pentru timpestamp)
+	Am parcurs lista initiala luand pe rand a cate 5 elemente si am adaugat intro nou lista
+	valorile mediane ce se incadreaza in intervalul dintre medie si deviatie si am returnat noua lista.
+
+Task 2 (Filtrare mediană)
+	Pentru implementarea acestui task am folosit functii:
+		-Functia de sortare a listei 
+		--Doua functii de extragere a mediai(una pentru valoare si alta pentru timpestamp)
+	Am sortat lista initiala apoi am luat la rand cate 5 elemente si am extras medianele introducandule intro nou lista pe care am functia mea o returneaza la sfarsit.
+
+Task 3(Filtrare folosind media aritmetică)
+	Pentru implementarea acestui task am folosit functii:
+		-Functia de calculare a mediei aritmetice.
+	Am parcurs lista initiala calculand cu ajutorul functiei media a fiecare 5 elemente consecutive introducand aceste medii intro noua lista returnata apoi de functia principala.
+
+Task 4 (Uniformizarea frecventei ı̂n timp a datelor)
+	Pentru implementarea acestui task am folosit functii:
+		-Functia de calculare a mediei aritmetice.
+	Am parcurs lista initiala la fiecare pas calculand diferenta dintre valorile a doua noduri consecutive,daca aceasta era mai mare decat 1 secunda se inlocuia valoarea nodului curent cu valoarea medie dintre nodul anterior si nodul curent.Functia returneaza lista finala modificata.
+
+Task 5 (Completarea datelor)
+	Pentru implementarea acestui task am folosit functii:
+		-Functia de calculare a factorului de scalare C.
+		-Functia de calculare a celor trei w.
+	Am parcurs lista initiala la fiecare pas calculand diferenta dintre timestampurile a doua valori succesive.Daca aceasta era mai mare decat 1000,se calcula factorul de scalare si se aplica formula de calcul a valorilor acestea fiind introduse intro noua lista la fel ca si nodurile a caror deferenta de timestampuri era mai mica de 1000 si nu era nevoie de completat intervalul cu date.Functia returna lista finala.
+
+Task 6 (Bonus: Statistici)
+	Pentru implementarea acestui task am folosit functii:
+		-Functia de sortare a listei
+	Am sortat lista cu ajutorul functie de sortare pe care am implementato apoi am stabilit inceputul primului interval.Apoi printr-un while am am parcur lista pana la sfarsitul care in interior mai are un while ce face suma elemntelor  din interval .La iesirea din al primul whilede fiecare data se afiseaza intervalul si numarul de valori.Intervalul este extras din argument.

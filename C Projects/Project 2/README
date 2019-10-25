@@ -1,0 +1,41 @@
+Completati, va rog, acest fisier intr-un editor Monospaced
+(de exemplu: vim, GEdit, nano, Kate, etc.)
+===============================================================================
+
+Nume si prenume:      Stratila Vladislav
+Grupa:                312CC
+Tema:                 Tema 2, Programarea Calculatoarelor
+Tema proiectului:     Trivia
+
+
+===============================================================================
+ Detalii de implementare, bonusuri implementate:
+
+	Aplicatia se va rula intr-un terminal FULL SCREEN.
+
+	Tema contine urmatoarele bonusuri:
+	- Am folosit putine creativitatea implimentand niste desene pentru a face
+	jocul vizibil cat mai placut.
+	-Am creat un fisier "score" in care se va scrie cel mai mare scor obtinut. 
+	- La finisarea jocului,la revenirea in meniul principal,este afisat scorul 
+	ultimuli joc.
+	
+	1) Meniul
+	Optiunile se pot alege uzitandu-se sagetile, iar pentru selectarea unei
+optiuni se va folosi tasta ENTER .
+
+	2) New Game
+	La alegerea acestei optiuni se va initializa o nou fereastra unde apare prima intrebare din joc.
+	 Dupa finisarea tuturor intrebarilor,pe ecran se va afisa scorul,numarul de raspunsuri corecte
+	 si numarul de raspunsuri gresite.
+
+	3) Resume
+	Aceasta optiune ii ofera sansa utilizatorului de a relua ultimul joc
+ramas neterminat.
+
+	4) Quit
+	Prin selectarea ultimei optiuni din meniu, utilizatorul va putea inchide
+aplicatia.
+
+	
+
